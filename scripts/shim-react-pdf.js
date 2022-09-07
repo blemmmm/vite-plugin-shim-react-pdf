@@ -66,9 +66,7 @@ prependFiles(
     "@react-pdf/pdfkit/lib/pdfkit.browser.es.js",
     "@react-pdf/fontkit/lib/fontkit.browser.es.js",
     "@react-pdf/png-js/lib/png-js.browser.es.js",
-  ],
-  "import { Buffer } from 'buffer';"
-);
+  ],'');
 prependFiles(
   [
     "@react-pdf/font/lib/index.browser.es.js",
@@ -76,6 +74,4 @@ prependFiles(
     "restructure/src/DecodeStream.js",
     "restructure/src/EncodeStream.js",
     "restructure/src/String.js",
-  ],
-  `const { Buffer } = require('buffer');`
-);
+  ],'');
